@@ -9,7 +9,10 @@ group :test, :development do
 end
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
-
+group :test do
+  gem 'capybara'
+  gem 'database_cleaner', '0.7.0'
+end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
