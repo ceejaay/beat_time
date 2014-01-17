@@ -3,6 +3,7 @@ BeatTime::Application.routes.draw do
   get "conversion_pages/home"
   get "conversion_pages/help"
   get "conversion_pages/time"
+  post "conversion_pages/convert"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
