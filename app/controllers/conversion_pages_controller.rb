@@ -7,7 +7,7 @@ class ConversionPagesController < ApplicationController
 
    
   def time
-    @time = params[:time]
+    @time = Time.new(params[:time])
   end
 
   def convert
