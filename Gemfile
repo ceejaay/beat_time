@@ -5,7 +5,9 @@ gem 'rails', '4.0.1'
 gem 'bootstrap-sass'
 
 group :test, :development do
-  gem 'rspec-rails', '2.10.0'
+  gem 'rspec-rails'
+  gem 'debugger'
+  gem 'simplecov'
 end
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
