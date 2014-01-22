@@ -1,5 +1,9 @@
 require 'spec_helper'
 
 describe LocalTime do
-  pending "add some examples to (or delete) #{__FILE__}"
+  describe '#convert' do
+    it 'converts to beat time' do
+      expect(LocalTime.convert('05:00PM')).to eq 708
+    end
+  end
 end

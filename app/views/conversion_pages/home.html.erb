@@ -1,7 +1,7 @@
 <div class="container">
     <h1>Convert your local time to .beat time</h1>
 
-    <%= form_for @local_time, url: conversion_pages_convert_path do |time| %>
+    <%= form_for :local_time, url: conversion_pages_convert_path do |time| %>
       <%= time.time_field :local_time %>
       <%= time.submit :Submit %>
     <% end %>
